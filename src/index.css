@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'CenturyGothic';
+  src: local('CenturyGothic'), url('./fonts/CenturyGothic/CenturyGothicRegular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Century';
+  src: local('Century'), url('./fonts/CenturyGothic/CenturyGothic.woff') format('woff');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'CenturyGothic', sans-serif!important;
+}
